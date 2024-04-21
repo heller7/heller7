@@ -61,20 +61,17 @@ author:
   name   : "Till Heller"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "I like math, do stuff @co-fox and play table tennis."
+  location: Nürnberg
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fa fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/till-h-1a6a05220/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+      url: "https://github.com/heller7"
+    - label: "Google Scholar"
+      icon: "fa fa-fw fa-graduation-cap"
+      url: "https://scholar.google.de/citations?user=my59SwYAAAAJ"
 
 
 footer:
