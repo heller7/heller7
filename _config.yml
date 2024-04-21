@@ -62,21 +62,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "I like math, do stuff @co-fox and play table tennis."
   links:
-   - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:till_heller@web.de"
-    - label: "LinkedIn"
-      icon: "fa fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/in/till-h-1a6a05220/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/heller7"
-    - label: "Google Scholar"
-      icon: "fa fa-fw fa-graduation-cap"
-      url: "https://scholar.google.de/citations?user=my59SwYAAAAJ"
-    - label: "Co-Fox"
-      icon: "fa fa-fw fa-briefcase"
-      url: "https://co-fox.de"
+
 
 footer:
   links:
