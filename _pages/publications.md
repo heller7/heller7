@@ -4,7 +4,9 @@ title: "Publications & Preprints"
 ---
 
 ## 2024
-Berthold, H., Heller, T., Seidel, T. (2024), **A unified approach to inverse robust optimization problems**. *Math Meth Oper Res (2024)*.
+Berthold, H., Heller, T., Seidel, T. (2024), **A unified approach to inverse robust optimization problems**. *Mathematical Methods of Operation Research (2024)*.
+
+Haese, R., Heller, T., Krumke, S. O. (2024), **Algorithms and complexity for the almost equal maximum flow problem**, *Networks. 83 (2024), 642–652*.
 
 ## 2023
 E. Finhold, C. Gärtner, R. Grindel, T. Heller, N. Leithäuser, E. Röger, F. Schirra (2023), **Optimizing the marketing of flexibility for a virtual battery in day-ahead and balancing markets: A rolling horizon case study**, *Applied Energy, Volume 352, 2023*.
