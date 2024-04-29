@@ -82,7 +82,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: double
       author_profile: true
       read_time: true
       comments: true
@@ -93,7 +93,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: double
+      layout: single
       author_profile: true
 
 category_archive:
