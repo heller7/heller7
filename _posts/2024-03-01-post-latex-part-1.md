@@ -9,7 +9,7 @@ tags:
 ---
 
 LaTeX ist eine markup language für das Schreiben und Layouten von (mathematischen) Texten und Artikeln.  Dieser Artikel ist Teil der Artikelserie "LaTeX - eine praktische Einführung" und soll als Nachschlagewerk für mich dienen. Vielleicht ist es ja hilfreich :) 
-<!--mehr-->
+<!--more-->
 
 ## Grundlegendes
 
