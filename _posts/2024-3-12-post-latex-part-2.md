@@ -25,7 +25,7 @@ Die tabular-Umgebung ist die grundlegende Umgebung zur Erstellung von Tabellen i
 \end{tabular}
 ```
 
-In diesem Beispiel definiert {c|c|c} die Ausrichtung der Spalten (zentriert) und ob vertikale Linien zwischen den Spalten vorhanden sein sollen. \hline wird verwendet, um horizontale Linien einzufügen.
+In diesem Beispiel definiert `{c|c|c}` die Ausrichtung der Spalten (zentriert) und ob vertikale Linien zwischen den Spalten vorhanden sein sollen. `\hline` wird verwendet, um horizontale Linien einzufügen.
 
 ## 1.1 Anpassung von Spaltenbreiten und -ausrichtung
 Die Breite und Ausrichtung von Spalten in der tabular-Umgebung kann angepasst werden. Zum Beispiel:
@@ -39,14 +39,13 @@ Die Breite und Ausrichtung von Spalten in der tabular-Umgebung kann angepasst we
     \hline
 \end{tabular}
 ```
-In LaTeX-Tabellen kann '@{}' verwendet werden, um den Abstand zwischen den Spalten anzupassen oder zusätzlichen Inhalt zwischen den Spalten hinzuzufügen. Zum Beispiel '{@{}}' entfernt den Abstand zwischen den Spalten, während '{@{\hspace{2em}}}' einen horizontalen Abstand von 2em zwischen den Spalten hinzufügt.
+In LaTeX-Tabellen kann `@{}` verwendet werden, um den Abstand zwischen den Spalten anzupassen oder zusätzlichen Inhalt zwischen den Spalten hinzuzufügen. Zum Beispiel `{@{}}` entfernt den Abstand zwischen den Spalten, während `{@{\hspace{2em}}}` einen horizontalen Abstand von 2em zwischen den Spalten hinzufügt.
 
-3. Die Spaltenausrichtungen: m, b, X, L, R
-`m`: Mitten (vertikal zentriert)
-`b`: Unten (vertikal am unteren Rand)
-`X`: Dehnbar (automatische Breitenanpassung)
-`L`: Links ausgerichtet
-`R`: Rechts ausgerichtet
+- `m`: Mitten (vertikal zentriert)
+- `b`: Unten (vertikal am unteren Rand)
+- `X`: Dehnbar (automatische Breitenanpassung)
+- `L`: Links ausgerichtet
+- `R`: Rechts ausgerichtet
 
 ## 1.2 Verwendung von \multirow und \multicolumn
 \multirow und \multicolumn sind nützliche Befehle zur Zusammenführung von Zellen über mehrere Zeilen bzw. Spalten:
@@ -94,5 +93,5 @@ Die longtabu-Umgebung ist eine Erweiterung der longtable-Umgebung, die durch das
     \hline
 \end{longtabu}
 ```
-
+`X[1,c]` definiert eine zentrierte Spalte von dehnbarer Größe, die den Anteil `1` der Gesamttabelle einnimmt. Die Größe der Gesamttabelle ist mittels `to \linewidth` gesetzt.  
 
