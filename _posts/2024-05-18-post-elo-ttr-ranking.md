@@ -38,9 +38,15 @@ BUT - how precise is the German table tennis ELO system?
 Since I play table tennis at a club for a longer time, I have a record of nearly 500 officially played matches. Using python with `pandas`, `beautifulSoup` and regular expressions, I was able to get a pandas dataframe of all my matches as follows:
 ![image tooltip here](/assets/images/elo_rating_initial_df.png)
 
-The entry of the column `Predicted_Win` is set to be `True` if the win probability is greater or equal to 0.5. 
+The entry of the column `Predicted_Win` is set to be `True` if the win probability is greater or equal to 0.5. In order to get an indicator of the performance, we use a rolling sum over the last 4 matches of the win probability and the actual won matches. 
 
+```html
+df['Moving_Sum_Probability'] = df['Win Probability'].rolling(window=4).sum()
+df['Moving_Sum_Wins'] = df['Won'].rolling(window=4).sum()
+df['Performance'] = df['Moving_Sum_Wins'] - df['Moving_Sum_Probability'] 
 
+df.plot(y=['Performance'])
+```
 
 
 
