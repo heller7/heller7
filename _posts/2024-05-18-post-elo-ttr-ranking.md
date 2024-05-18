@@ -18,16 +18,16 @@ An ELO rating is a numerical representation of a player's skill level. The highe
 ## How are ELO Ratings Computed?
 The computation of ELO ratings involves a few key steps:
 
-## Initial Rating
+### Initial Rating
 Every player starts with an initial rating, often set to 1000 for new players. This baseline can vary depending on the specific implementation of the ELO system.
 
-## Expected Score Calculation
+### Expected Score Calculation
 Before a match, the expected score for each player is calculated using the difference between their ratings. The expected score represents the probability of a player winning the match. It is calculated using the formula:
 
-## Rating Adjustment
+### Rating Adjustment
 The players' ratings are then adjusted based on the match result compared to the expected score. The adjustment is calculated using the formula:
 
-## Iterative Updates
+### Iterative Updates
 This process is repeated for each match a player participates in, with their rating continually adjusting to reflect their current skill level.
 
 The beauty of the ELO rating system lies in its simplicity and adaptability. It effectively balances between rewarding players for wins and recognizing the difficulty of their opponents. Over time, a player's rating becomes a reliable indicator of their skill level, making it easier to match them against opponents of similar strength and fostering a fair and competitive environment.
