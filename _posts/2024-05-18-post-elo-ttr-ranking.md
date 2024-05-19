@@ -74,7 +74,7 @@ df['Performance'] = (df['Won'] - df['Win Probability']).rolling(window=8).mean()
 For a first glimpse at the preciseness of the predicted win, we calculate the difference between the predicted win and the actual win. It turns out, that the prediction is not that precise as the following table shows:
 
 | Result      | Predicted Win | Predicted Loss  |
-|:------------|:---------     |----------------:|
+|:------------|:---------:    |:---------------:|
 | Win         | 211           | 63              |
 | Loss        |134            | 65              |
 
