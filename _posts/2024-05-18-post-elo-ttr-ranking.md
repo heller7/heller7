@@ -76,5 +76,5 @@ For a first glimpse at the preciseness of the predicted win, we calculate the di
 | Result      | Predicted Win | Predicted Loss  |
 |:------------|:---------:    |:---------------:|
 | Win         | 211           | 63              |
-| Loss        |134            | 65              |
+| Loss        |65            | 134              |
 
