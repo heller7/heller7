@@ -28,7 +28,7 @@ Markdown unterstützt sechs Ebenen von Überschriften, die mit dem `#`-Symbol er
 
 ## 2. Textformatierungen
 ### Fett und Kursiv
-```markdown
+```
 **Fett** oder __Fett__
 *Kursiv* oder _Kursiv_
 ***Fett und Kursiv*** oder ___Fett und Kursiv___
