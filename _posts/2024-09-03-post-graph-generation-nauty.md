@@ -14,13 +14,13 @@ In this short article I want to write down the needed steps in order to generate
 
 # What is it?
 
-A more detailed explanation with additional information can be found [here](https://pallini.di.uniroma1.it/). Also, the documentation can be found [here](https://pallini.di.uniroma1.it/Guide.html)
+A more detailed explanation with additional information can be found [here](https://pallini.di.uniroma1.it/). Also, the documentation can be found [here](https://pallini.di.uniroma1.it/Guide.html).
 
 # How to get it?
-You can find it [here](https://pallini.di.uniroma1.it/nauty2_8_9.tar.gz) Download the gzipped tar file from there.
+You can find it [here](https://pallini.di.uniroma1.it/nauty2_8_9.tar.gz). Download the gzipped tar file from there.
 
 # How to install it?
-In order to install it on a max, follow these simple steps:
+In order to install it on a Mac, follow these simple steps:
 
 - **Navigate to the directory containing the tar.gz file**
    - Use the `cd` command to change to the directory where your `nauty2_8_9.tar.gz` file is located. For example:
