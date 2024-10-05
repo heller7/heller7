@@ -8,6 +8,8 @@ tags:
   - deutsch
 ---
 
+Dieser Artikel beschreibt die Nutzung des LaTeX-Packets spreadtab. <!--more-->
+
 # Verwendung des LaTeX-Pakets `spreadtab`
 
 Das `spreadtab`-Paket ist ein Paket zur Erstellung von Tabellen, in denen einfache arithmetische Berechnungen eingebettet werden können. 
