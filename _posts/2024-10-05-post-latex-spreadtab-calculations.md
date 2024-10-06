@@ -27,7 +27,7 @@ Nun können Tabellen definiert und Berechnungen einfügt werden. Die Struktur fo
 ## Beispiel: Eine einfache Tabelle mit Summen
 
 ```
-\begin{spreadtab}{{tabular}{llll|l}}
+\begin{spreadtab}{llll|l}
     & @ Spalte1 & @ Spalte2 & @ Spalte3 & \\
 @ Zeile1 & 1 & 2 & 3 & sum(b2:d2) \\
 @ Zeile2 & 6 & 5 & 4 & sum(b3:d3) \\
