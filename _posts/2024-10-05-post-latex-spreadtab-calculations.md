@@ -19,7 +19,7 @@ Das `spreadtab`-Paket ist ein Paket zur Erstellung von Tabellen, in denen einfac
 Um `spreadtab` zu benutzen, muss zunächst das Paket geladen werden:
 
 ```
-
+\usepackage{spreadtab}
 ```
 
 Nun können Tabellen definiert und Berechnungen einfügt werden. Die Struktur folgt einer typischen `tabular`-Umgebung, aber mit `spreadtab`-Syntax, um automatische Berechnungen zu ermöglichen.
