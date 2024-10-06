@@ -18,7 +18,7 @@ Das `spreadtab`-Paket ist ein Paket zur Erstellung von Tabellen, in denen einfac
 
 Um `spreadtab` zu benutzen, muss zunächst das Paket geladen werden:
 
-``latex
+```
 \Paket {spreadtab} verwenden
 ```
 
@@ -26,7 +26,7 @@ Nun können Tabellen definiert und Berechnungen einfügt werden. Die Struktur fo
 
 ## Beispiel: Eine einfache Tabelle mit Summen
 
-```latex
+```
 \begin{spreadtab}{{tabular}{llll|l}}
     & @ Spalte1 & @ Spalte2 & @ Spalte3 & \\
 @ Zeile1 & 1 & 2 & 3 & sum(b2:d2) \\
